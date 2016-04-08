@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <dimen name="demo_app_imgViewForMenu1_padding_left">9dp</dimen>
+   <dimen name="demo_app_imgViewForMenu1_padding_right">9dp</dimen>
+
+   <dimen name="demo_app_imageView_back_padding_left">12dp</dimen>
+   <dimen name="demo_app_imageView_back_padding_right">12dp</dimen>
+
+   <dimen name="demo_app_header_text">15dp</dimen>
+
+</resources>

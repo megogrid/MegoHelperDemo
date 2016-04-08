@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/surender/Documents/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/home/surender/AndroidStudioProject/MyClientMeUserDemo/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-7d93a0c041fafc043f7496812d759bb539b6c5fb.jar" />
+    </item>
+    <item
+        jar="/home/surender/AndroidStudioProject/MyClientMeUserDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/home/surender/AndroidStudioProject/MyClientMeUserDemo/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-72c39bac13103b349a4fa0194fc48b381078f2be.jar" />
+    </item>
+    <item
+        jar="/home/surender/AndroidStudioProject/MyClientMeUserDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/home/surender/AndroidStudioProject/MyClientMeUserDemo/app/build/intermediates/pre-dexed/debug/classes-7db5b04deb9719bf7ea045a1f2c0bdab055bfbda.jar" />
+    </item>
+    <item
+        jar="/home/surender/AndroidStudioProject/MyClientMeUserDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/home/surender/AndroidStudioProject/MyClientMeUserDemo/app/build/intermediates/pre-dexed/debug/classes-185c01ec0d079922950ac59798bc2238e9c91aad.jar" />
+    </item>
+
+</items>

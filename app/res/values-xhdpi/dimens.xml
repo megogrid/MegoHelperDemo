@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <dimen name="demo_app_imgViewForMenu1_padding_left">14dp</dimen>
+   <dimen name="demo_app_imgViewForMenu1_padding_right">14dp</dimen>
+
+   <dimen name="demo_app_imageView_back_padding_left">15dp</dimen>
+   <dimen name="demo_app_imageView_back_padding_right">15dp</dimen>
+
+   <dimen name="demo_app_header_text">16dp</dimen>
+
+
+
+</resources>

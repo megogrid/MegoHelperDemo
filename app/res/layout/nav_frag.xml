@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/drawer_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/L1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="#E1E1E1"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/list_selected"
+                    android:drawableLeft="@drawable/user11"
+                    android:drawablePadding="20dp"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="12dp"
+                    android:text="MePro"
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/list_selected"
+                android:clickable="true"
+                android:drawableLeft="@drawable/drawer_account"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:paddingBottom="12dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="12dp"
+                android:paddingTop="12dp"
+                android:text="Account"
+                android:textColor="@color/drawer_text"
+                android:textSize="20dp"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/text_grey_color" />
+
+            <TextView
+                android:id="@+id/help_v"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selected"
+                android:clickable="true"
+                android:drawableLeft="@drawable/help_app"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:paddingBottom="12dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="12dp"
+                android:paddingTop="12dp"
+                android:text="Help"
+                android:textColor="@color/drawer_text"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/text_grey_color" />
+
+            <TextView
+                android:id="@+id/feedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selected"
+                android:clickable="true"
+                android:drawableLeft="@drawable/feedback_app"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:paddingBottom="12dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="12dp"
+                android:paddingTop="12dp"
+                android:text="Feedback"
+                android:textColor="@color/drawer_text"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/text_grey_color" />
+
+            <TextView
+                android:id="@+id/Tutorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selected"
+                android:clickable="true"
+                android:drawableLeft="@drawable/tutorial_app"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:paddingBottom="12dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="12dp"
+                android:paddingTop="12dp"
+                android:text="Tutorial"
+                android:textColor="@color/drawer_text"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/text_grey_color" />
+
+
+            <TextView
+                android:id="@+id/ratingreview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selected"
+                android:clickable="true"
+                android:drawableLeft="@drawable/rating_app"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:paddingBottom="12dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="12dp"
+                android:paddingTop="12dp"
+                android:text="Rate Us"
+                android:textColor="@color/drawer_text"
+                android:textSize="20dp"
+                android:visibility="visible"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/text_grey_color" />
+
+
+            <TextView
+                android:id="@+id/faq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selected"
+                android:clickable="true"
+                android:drawableLeft="@drawable/faq_app"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:paddingBottom="12dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="12dp"
+                android:paddingTop="12dp"
+                android:text="FAQ"
+                android:textColor="@color/drawer_text"
+                android:textSize="20dp" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/text_grey_color" />
+
+            <TextView
+                android:id="@+id/survay1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selected"
+                android:clickable="true"
+                android:drawableLeft="@drawable/configuration"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:paddingBottom="12dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="12dp"
+                android:paddingTop="12dp"
+                android:text="UserSurvey"
+                android:textColor="@color/drawer_text"
+                android:textSize="20dp"
+                android:visibility="gone"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/text_grey_color" />
+
+
+            <TextView
+                android:id="@+id/UserFaq1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selected"
+                android:clickable="true"
+                android:drawableLeft="@drawable/configuration"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:paddingBottom="12dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="12dp"
+                android:paddingTop="12dp"
+                android:text="UserFAQ"
+                android:textColor="@color/drawer_text"
+                android:textSize="20dp"
+                android:visibility="gone"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/text_grey_color" />
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>
